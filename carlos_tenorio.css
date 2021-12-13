@@ -1,0 +1,271 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*Listo*/
+.container {
+	max-width: 1300px;
+	height: auto;
+	margin: 2px auto;
+	padding: 1px;
+	border: 2px solid white;
+	background-color:   #33ff86 ; /*ROJO*/
+	border-radius: 15px;
+	font-family: verdana;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+
+}
+/*Listo*/
+header{
+	width: 98%;
+	height: auto;
+	margin: 3px auto;
+	padding: 1px;
+	border: 2px solid black;
+	background-color: #F4FAD2; /*Color NAV*/
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+/*Listo*/
+nav{
+	width: 98%;
+	height: auto;
+	margin: 3px auto;
+	padding: 1px;
+	border: 2px solid black;
+	background-color: #F4FAD2;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+/*Listo*/
+#principal section{
+	width: 80%
+	height: auto;
+	margin: 5px;
+	padding: 5px;
+	box-sizing: border-box;
+	background-color: #33ffdd;/*Verde*/
+	display: flex;
+	flex-direction: row;
+}
+
+#titulo{
+	font-family: arial-black, sans-serif;
+	font-size: 30pt;display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	}
+
+#tabla{
+	width: 96%;
+	margin:auto;
+
+}
+
+#video{
+	width: 99%;
+}
+
+#video2{
+	text-align: center;
+}
+
+article{
+    border:solid;
+    border-color: white;
+	border-radius: 20px;
+	width: 99%;
+
+}
+
+
+/*Listo*/
+nav a{
+	text-decoration: none;
+	color: black
+	border: 2px solid black;
+	border-radius: 15px;
+	background-color: #F0F2EB;
+	margin: 5px;
+	padding: 2px;
+}
+/*Listo*/
+nav a:hover{
+	background-color: #FF4242;
+	border:2px solid white;
+	color: white;
+}
+
+
+
+
+table { border-collapse: collapse; text-align: center; vertical-align: middle;}
+
+
+
+
+
+*/ 
+	.imagen1 {
+		display: block;
+		margin-left: auto;
+   	    margin-right: auto;
+	}
+
+	.imagen2 {
+		height: 40%;
+		width: 40%;
+		display: block;
+		margin: auto;
+	}
+
+	.imagen3 {
+		height: 42%;
+		width: 36%;
+		display: block;
+		margin: auto;
+	}
+
+	.imagen4 {
+
+		height: 60%;
+		width: 60%;
+		display: block;
+		margin: auto;
+
+	}
+
+	.escudo{
+		height: 40%;
+		width: 40%;
+		display: block;
+		margin:auto;
+	}
+
+
+
+	
+
+ }
+   
+
+   h2{
+    
+   	height: 90%;
+   	align-content: center;
+
+   }
+   .parrafos{
+   	text-align: justify;
+   	width: 90%;
+   	align-items: center;
+   	margin-left: auto;
+   	margin-right: auto;
+	
+   }
+
+   .datos{
+   	width: 80%;
+   	margin-left: auto;
+   	margin-right: auto;
+   }
+
+
+
+   	.textoo{
+		align-items: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	.ennerlogros{
+		width: 250%;
+	}
+
+
+	div section{
+		width: 99%;
+	}
+
+
+	#color{
+		color: #ff3352;
+
+	}
+
+
+/* para 980px o menos */
+	@media screen and (max-width:980px) {
+		.container {
+			width:98%;
+		}
+		section {
+			width:68%;
+		
+		}
+	}
+
+
+	/* para 700px o menos */
+	@media screen and (max-width:700px) {
+		aside,section {
+			float:none;
+			width:96%;
+		}
+		section {
+			flex-direction: column;
+		}
+		aside {
+			flex-direction: column;
+		}
+		article{
+			flex-direction: column;
+		}
+		
+	}
+
+
+ /* para 480px o menos */
+	@media screen and (max-width:480px) {
+		aside {
+			display:none;
+		}
+		nav, section {
+			font-size:1.5em;
+		}
+		section {
+			flex-direction: column;
+		}
+		nav{
+			flex-direction: column;
+		}
+		
+	}
+
+		
+
+	
+ 
+
+	
+
+	
+		
+
+	
+
+
+	
